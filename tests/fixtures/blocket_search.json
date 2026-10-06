@@ -1,0 +1,33 @@
+{
+  "total_count": 3,
+  "data": [
+    {
+      "ad_id": "1401234567",
+      "subject": "Nvidia Tesla P100 16GB HBM2 servergrafikkort",
+      "body": "Fungerar fint i min server. Passivt kylt, behöver fläktshroud.",
+      "price": {"value": 1250, "suffix": "kr"},
+      "share_url": "https://www.blocket.se/annons/stockholm/nvidia-tesla-p100/1401234567",
+      "list_time": "2026-09-01T08:12:00Z",
+      "location": [{"name": "Stockholm"}, {"name": "Solna"}],
+      "images": [{"url": "https://cdn.blocket.se/1.jpg"}],
+      "advertiser": {"name": "Anders"}
+    },
+    {
+      "ad_id": "1409999999",
+      "subject": "2 st Tesla P40 24GB",
+      "body": "Två kort, säljes samlat.",
+      "price": {"value": 4800},
+      "share_url": "https://www.blocket.se/annons/goteborg/tesla-p40/1409999999",
+      "list_time": 1756713600,
+      "location": [{"name": "Göteborg"}]
+    },
+    {
+      "ad_id": "1400000001",
+      "subject": "Kylare till Tesla P40 3D-printad",
+      "body": "Endast kylare, inget kort.",
+      "price": {"value": 150},
+      "share_url": "https://www.blocket.se/annons/malmo/kylare/1400000001",
+      "location": [{"name": "Malmö"}]
+    }
+  ]
+}

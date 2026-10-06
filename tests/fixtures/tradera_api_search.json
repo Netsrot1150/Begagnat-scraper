@@ -1,0 +1,431 @@
+{
+ "totalNumberOfItems": 51,
+ "totalNumberOfPages": 2,
+ "items": [
+  {
+   "id": 747130823,
+   "shortDescription": "GIGABYTE RTX 3090 GAMING OC Grafikkort",
+   "buyItNowPrice": 12500,
+   "sellerId": 5133796,
+   "sellerAlias": "ErikTruuts",
+   "maxBid": 12500,
+   "thumbnailLink": "https://img.tradera.net/thumbs/674/657423674_cb94308d-e806-474c-b417-66ad352d9a8a.jpg",
+   "sellerDsrAverage": 0,
+   "endDate": "2026-10-25T14:43:00.8268129+01:00",
+   "nextBid": 12500,
+   "hasBids": false,
+   "isEnded": false,
+   "itemType": "PureBuyItNow",
+   "itemUrl": "http://www.tradera.com/item/341372/747130823/gigabyte-rtx-3090-gaming-oc-grafikkort",
+   "categoryId": 341372,
+   "bidCount": 0,
+   "imageLinks": [
+    {
+     "url": "https://img.tradera.net/medium/674/657423674_cb94308d-e806-474c-b417-66ad352d9a8a.jpg",
+     "format": "gallery"
+    },
+    {
+     "url": "https://img.tradera.net/images/674/657423674_cb94308d-e806-474c-b417-66ad352d9a8a.jpg",
+     "format": "normal"
+    },
+    {
+     "url": "https://img.tradera.net/thumbs/674/657423674_cb94308d-e806-474c-b417-66ad352d9a8a.jpg",
+     "format": "thumb"
+    },
+    {
+     "url": "https://img.tradera.net/minithumb/674/657423674_cb94308d-e806-474c-b417-66ad352d9a8a.jpg",
+     "format": "minithumb"
+    }
+   ],
+   "attributeValues": {
+    "termAttributeValues": [
+     {
+      "id": 45,
+      "name": "graphics_card_brand",
+      "values": [
+       "Gigabyte"
+      ]
+     },
+     {
+      "id": 121,
+      "name": "condition",
+      "values": [
+       "Gott skick"
+      ]
+     }
+    ],
+    "numberAttributeValues": []
+   },
+   "longDescription": "Hej! Säljer mitt 3090 då jag hade tänkt skaffa mig ett 5080, den har enbart använts till gaming. Skulle även kunna byta den mot ett 5080.Den behöver förmodligen"
+  },
+  {
+   "id": 747059473,
+   "shortDescription": "Corgi Toys Bedford dragbil med släp och Märklin ånglok 3090 i originalkartong.",
+   "sellerId": 4248681,
+   "sellerAlias": "RobinsonCrusoe",
+   "maxBid": 111,
+   "thumbnailLink": "https://img.tradera.net/thumbs/924/657366924_ec487c5b-bac1-4494-9001-302203513428.jpg",
+   "sellerDsrAverage": 5,
+   "endDate": "2026-09-05T21:28:14.304716+02:00",
+   "nextBid": 121,
+   "hasBids": true,
+   "isEnded": false,
+   "itemType": "Auction",
+   "itemUrl": "http://www.tradera.com/item/291701/747059473/corgi-toys-bedford-dragbil-med-slap-och-marklin-anglok-3090-i-originalkartong-",
+   "categoryId": 291701,
+   "bidCount": 15,
+   "imageLinks": [
+    {
+     "url": "https://img.tradera.net/medium/924/657366924_ec487c5b-bac1-4494-9001-302203513428.jpg",
+     "format": "gallery"
+    },
+    {
+     "url": "https://img.tradera.net/images/924/657366924_ec487c5b-bac1-4494-9001-302203513428.jpg",
+     "format": "normal"
+    },
+    {
+     "url": "https://img.tradera.net/thumbs/924/657366924_ec487c5b-bac1-4494-9001-302203513428.jpg",
+     "format": "thumb"
+    },
+    {
+     "url": "https://img.tradera.net/minithumb/924/657366924_ec487c5b-bac1-4494-9001-302203513428.jpg",
+     "format": "minithumb"
+    }
+   ],
+   "attributeValues": {
+    "termAttributeValues": [
+     {
+      "id": 121,
+      "name": "condition",
+      "values": [
+       "Gott skick"
+      ]
+     }
+    ],
+    "numberAttributeValues": []
+   },
+   "longDescription": "Corgi Toys Bedford dragbil med släp, men utan last.Tillverkad i Storbritannien. Äldre Märklin lok 3090, i originalkartkong från 1972 - 79. Loket saknar vevstake"
+  },
+  {
+   "id": 747292959,
+   "shortDescription": "MSI GeForce RTX 3090 SUPRIM X 24G",
+   "sellerId": 1166020,
+   "sellerAlias": "cookie-k",
+   "maxBid": 10150,
+   "thumbnailLink": "https://img.tradera.net/thumbs/524/657547524_e617deac-e7fe-4e12-8abc-8fb75a131258.jpg",
+   "sellerDsrAverage": 0,
+   "endDate": "2026-09-10T20:36:56.632+02:00",
+   "nextBid": 10650,
+   "hasBids": true,
+   "isEnded": false,
+   "itemType": "AuctionWithBuyItNow",
+   "itemUrl": "http://www.tradera.com/item/341372/747292959/msi-geforce-rtx-3090-suprim-x-24g",
+   "categoryId": 341372,
+   "bidCount": 2,
+   "imageLinks": [
+    {
+     "url": "https://img.tradera.net/medium/524/657547524_e617deac-e7fe-4e12-8abc-8fb75a131258.jpg",
+     "format": "gallery"
+    },
+    {
+     "url": "https://img.tradera.net/images/524/657547524_e617deac-e7fe-4e12-8abc-8fb75a131258.jpg",
+     "format": "normal"
+    },
+    {
+     "url": "https://img.tradera.net/thumbs/524/657547524_e617deac-e7fe-4e12-8abc-8fb75a131258.jpg",
+     "format": "thumb"
+    },
+    {
+     "url": "https://img.tradera.net/minithumb/524/657547524_e617deac-e7fe-4e12-8abc-8fb75a131258.jpg",
+     "format": "minithumb"
+    }
+   ],
+   "attributeValues": {
+    "termAttributeValues": [
+     {
+      "id": 45,
+      "name": "graphics_card_brand",
+      "values": [
+       "MSI"
+      ]
+     },
+     {
+      "id": 121,
+      "name": "condition",
+      "values": [
+       "Mycket gott skick"
+      ]
+     }
+    ],
+    "numberAttributeValues": []
+   },
+   "longDescription": "Säljer ett MSI GeForce RTX 3090 SUPRIM X 24G  från MSI:s premiumserie SUPRIM X.Ett riktigt kraftfullt och påkostat grafikkort med 24 GB GDDR6X-minne, rejäl kyln"
+  },
+  {
+   "id": 440929087,
+   "shortDescription": "KALMAR. Flygfoto över nya läroverket med omnejd 1930-tal. Pressbyrån",
+   "buyItNowPrice": 50,
+   "sellerId": 200,
+   "sellerAlias": "novastamps",
+   "maxBid": 50,
+   "thumbnailLink": "https://img.tradera.net/thumbs/903/391225903_5f315e26-59ae-4dec-a4e3-306f03dc215a.jpg",
+   "sellerDsrAverage": 5,
+   "endDate": "2044-12-28T10:07:02.527+01:00",
+   "nextBid": 50,
+   "hasBids": false,
+   "isEnded": false,
+   "itemType": "ShopItem",
+   "itemUrl": "http://www.tradera.com/item/270118/440929087/kalmar-flygfoto-over-nya-laroverket-med-omnejd-1930-tal-pressbyran",
+   "categoryId": 270118,
+   "bidCount": 0,
+   "imageLinks": [
+    {
+     "url": "https://img.tradera.net/medium/903/391225903_5f315e26-59ae-4dec-a4e3-306f03dc215a.jpg",
+     "format": "gallery"
+    },
+    {
+     "url": "https://img.tradera.net/images/903/391225903_5f315e26-59ae-4dec-a4e3-306f03dc215a.jpg",
+     "format": "normal"
+    },
+    {
+     "url": "https://img.tradera.net/thumbs/903/391225903_5f315e26-59ae-4dec-a4e3-306f03dc215a.jpg",
+     "format": "thumb"
+    },
+    {
+     "url": "https://img.tradera.net/minithumb/903/391225903_5f315e26-59ae-4dec-a4e3-306f03dc215a.jpg",
+     "format": "minithumb"
+    }
+   ],
+   "attributeValues": {
+    "termAttributeValues": [],
+    "numberAttributeValues": []
+   },
+   "longDescription": "FORMAT: 9x14FÖRLAG / FOTO: Alga (Pressbyrån) 3090.FRANKERAT 1937 med maskinstämpel KALMAR.KVALITET: I bra skick (KVAL 7).  För topografiska vykort anges kommunt"
+  },
+  {
+   "id": 747293714,
+   "shortDescription": "Hälge: Min Skottkammare av Lars Mortimer, 2000",
+   "sellerId": 5188941,
+   "sellerAlias": "Matte_2001",
+   "maxBid": 30,
+   "thumbnailLink": "https://img.tradera.net/thumbs/137/657548137_7636eb1d-7386-4080-b3ec-f707b361544b.jpg",
+   "sellerDsrAverage": 5,
+   "endDate": "2026-09-10T17:42:48.412+02:00",
+   "nextBid": 30,
+   "hasBids": false,
+   "isEnded": false,
+   "itemType": "Auction",
+   "itemUrl": "http://www.tradera.com/item/341530/747293714/halge-min-skottkammare-av-lars-mortimer-2000",
+   "categoryId": 341530,
+   "bidCount": 0,
+   "imageLinks": [
+    {
+     "url": "https://img.tradera.net/medium/137/657548137_7636eb1d-7386-4080-b3ec-f707b361544b.jpg",
+     "format": "gallery"
+    },
+    {
+     "url": "https://img.tradera.net/images/137/657548137_7636eb1d-7386-4080-b3ec-f707b361544b.jpg",
+     "format": "normal"
+    },
+    {
+     "url": "https://img.tradera.net/thumbs/137/657548137_7636eb1d-7386-4080-b3ec-f707b361544b.jpg",
+     "format": "thumb"
+    },
+    {
+     "url": "https://img.tradera.net/minithumb/137/657548137_7636eb1d-7386-4080-b3ec-f707b361544b.jpg",
+     "format": "minithumb"
+    }
+   ],
+   "attributeValues": {
+    "termAttributeValues": [
+     {
+      "id": 121,
+      "name": "condition",
+      "values": [
+       "Mycket gott skick"
+      ]
+     }
+    ],
+    "numberAttributeValues": []
+   },
+   "longDescription": "Fint skick. En rolig presentbok med serier av Hälge, skapad av Lars Mortimer. Perfekt för älskare av äkta svensk älghumor. ISBN 91-552-3090-3."
+  },
+  {
+   "id": 748179495,
+   "shortDescription": "Kaiser Typ 3090 Studiobelysning foto",
+   "buyItNowPrice": 110,
+   "sellerId": 3379131,
+   "sellerAlias": "Renee_RW",
+   "maxBid": 90,
+   "thumbnailLink": "https://img.tradera.net/thumbs/142/658229142_dfad66e3-139d-4bb3-a714-affb736b21ca.jpg",
+   "sellerDsrAverage": 5,
+   "endDate": "2026-09-13T19:23:55.73+02:00",
+   "nextBid": 90,
+   "hasBids": false,
+   "isEnded": false,
+   "itemType": "AuctionWithBuyItNow",
+   "itemUrl": "http://www.tradera.com/item/342585/748179495/kaiser-typ-3090-studiobelysning-foto",
+   "categoryId": 342585,
+   "bidCount": 0,
+   "imageLinks": [
+    {
+     "url": "https://img.tradera.net/medium/142/658229142_dfad66e3-139d-4bb3-a714-affb736b21ca.jpg",
+     "format": "gallery"
+    },
+    {
+     "url": "https://img.tradera.net/images/142/658229142_dfad66e3-139d-4bb3-a714-affb736b21ca.jpg",
+     "format": "normal"
+    },
+    {
+     "url": "https://img.tradera.net/thumbs/142/658229142_dfad66e3-139d-4bb3-a714-affb736b21ca.jpg",
+     "format": "thumb"
+    },
+    {
+     "url": "https://img.tradera.net/minithumb/142/658229142_dfad66e3-139d-4bb3-a714-affb736b21ca.jpg",
+     "format": "minithumb"
+    }
+   ],
+   "attributeValues": {
+    "termAttributeValues": [
+     {
+      "id": 121,
+      "name": "condition",
+      "values": [
+       "Gott skick"
+      ]
+     }
+    ],
+    "numberAttributeValues": []
+   },
+   "longDescription": "Kaiser Typ 3090 studiobelysning med 2x1000W lampor. Den ”mindre” lampan sönder. (Kostnad idag vid koll 94:- på nätet) Därav lågt pris på lampan.Sladden har på e"
+  },
+  {
+   "id": 747030104,
+   "shortDescription": "Volvo V70 D4 Geartronic, 181hk, 2015",
+   "buyItNowPrice": 159900,
+   "sellerId": 7081069,
+   "sellerAlias": "Moderna Bil Knivsta",
+   "maxBid": 159900,
+   "thumbnailLink": "https://img.tradera.net/thumbs/992/657344992_f6ae5726-811f-47ec-ad1a-2d084f5a890f.jpg",
+   "sellerDsrAverage": 0,
+   "endDate": "2026-10-24T19:26:17.1443264+02:00",
+   "nextBid": 159900,
+   "hasBids": false,
+   "isEnded": false,
+   "itemType": "ContactOnly",
+   "itemUrl": "http://www.tradera.com/item/1001/747030104/volvo-v70-d4-geartronic-181hk-2015",
+   "categoryId": 1001,
+   "bidCount": 0,
+   "imageLinks": [
+    {
+     "url": "https://img.tradera.net/medium/992/657344992_f6ae5726-811f-47ec-ad1a-2d084f5a890f.jpg",
+     "format": "gallery"
+    },
+    {
+     "url": "https://img.tradera.net/images/992/657344992_f6ae5726-811f-47ec-ad1a-2d084f5a890f.jpg",
+     "format": "normal"
+    },
+    {
+     "url": "https://img.tradera.net/thumbs/992/657344992_f6ae5726-811f-47ec-ad1a-2d084f5a890f.jpg",
+     "format": "thumb"
+    },
+    {
+     "url": "https://img.tradera.net/minithumb/992/657344992_f6ae5726-811f-47ec-ad1a-2d084f5a890f.jpg",
+     "format": "minithumb"
+    }
+   ],
+   "attributeValues": {
+    "termAttributeValues": [
+     {
+      "id": 133,
+      "name": "vehicle_brand",
+      "values": [
+       "Volvo"
+      ]
+     },
+     {
+      "id": 128,
+      "name": "car_model",
+      "values": [
+       "V70"
+      ]
+     },
+     {
+      "id": 98,
+      "name": "fuel_type",
+      "values": [
+       "Diesel"
+      ]
+     },
+     {
+      "id": 127,
+      "name": "car_body_type",
+      "values": [
+       "Kombi"
+      ]
+     },
+     {
+      "id": 99,
+      "name": "gearbox",
+      "values": [
+       "Automat"
+      ]
+     },
+     {
+      "id": 131,
+      "name": "equipment",
+      "values": [
+       "Dragkrok",
+       "Centrallås",
+       "Parkeringsvärmare",
+       "Färddator",
+       "Parkeringssensorer",
+       "Bluetooth",
+       "Regnsensor",
+       "Isofix",
+       "Farthållare",
+       "Multifunktionsratt",
+       "ESC",
+       "Servostyrning",
+       "12V-uttag",
+       "Radio FM",
+       "USB",
+       "AUX-ingång",
+       "Bi-xenon-strålkastare",
+       "Elhissar",
+       "Elinfällbara sidospeglar",
+       "Uppvärmda sidospeglar",
+       "Sidoairbags",
+       "Sätesvärme"
+      ]
+     },
+     {
+      "id": 2,
+      "name": "color",
+      "values": [
+       "blue"
+      ]
+     }
+    ],
+    "numberAttributeValues": [
+     {
+      "id": 129,
+      "name": "mileage",
+      "values": [
+       172670.0
+      ]
+     },
+     {
+      "id": 134,
+      "name": "model_year_numeric",
+      "values": [
+       2015.0
+      ]
+     }
+    ]
+   },
+   "longDescription": "Volvo V70 D4 Geartronic, 181hk, 2015Årsskatt: 1416krBlandad förbrukning: 0.5L per milBesiktad till och med:  2026-12-31Servad på förlamande miltal: 3090- 4656- "
+  }
+ ],
+ "errors": []
+}

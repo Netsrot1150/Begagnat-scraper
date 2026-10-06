@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>begagnat — GPU-fynd</title>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>🎮</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">begagnat<span class="brand-sub">GPU-fynd för lokal AI</span></div>
+  <nav id="tabs">
+    <button class="tab" data-view="finds">Fynd</button>
+    <button class="tab" data-view="watches">Bevakningar</button>
+    <button class="tab" data-view="search">Sök</button>
+    <button class="tab" data-view="feed">Flöde <span id="unseen-badge" class="badge" hidden>0</span></button>
+    <button class="tab" data-view="stats">Prisstatistik</button>
+    <button class="tab" data-view="cards">Kortkatalog</button>
+  </nav>
+  <div id="status-pill" class="pill" title="Bakgrundsschemaläggaren">…</div>
+</header>
+
+<main>
+  <!-- ------------------------------------------------------------ Fynd -->
+  <section id="view-finds" class="view">
+    <div class="toolbar">
+      <label>Max pris <input type="number" id="f-max-price" placeholder="kr" step="100"></label>
+      <label>Min VRAM <input type="number" id="f-min-vram" placeholder="GB" step="8"></label>
+      <label>Max kr/GB <input type="number" id="f-max-krgb" placeholder="kr" step="10"></label>
+      <label>Källa <select id="f-source"><option value="">alla</option></select></label>
+      <label>Kort <select id="f-gpu"><option value="">alla</option></select></label>
+      <label>Bevakning <select id="f-watch"><option value="">alla</option></select></label>
+      <label class="check"><input type="checkbox" id="f-starred"> Endast ★</label>
+      <label class="check"><input type="checkbox" id="f-hidden"> Visa dolda</label>
+      <button id="f-reload" class="primary">Uppdatera</button>
+    </div>
+    <div class="split">
+      <div id="finds-table" class="pane"></div>
+      <aside id="detail" class="pane detail"><p class="muted">Välj en annons för detaljer.</p></aside>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------------------- Bevakningar -->
+  <section id="view-watches" class="view" hidden>
+    <div class="toolbar">
+      <button id="w-new" class="primary">Ny bevakning</button>
+      <span class="muted" id="w-hint"></span>
+    </div>
+    <div id="watch-list"></div>
+    <form id="watch-form" class="card form" hidden>
+      <h3 id="wf-title">Ny bevakning</h3>
+      <input type="hidden" id="wf-id">
+      <div class="grid">
+        <label>Namn<input id="wf-name" required placeholder="P100-fynd"></label>
+        <label>Sökord<input id="wf-query" placeholder="tesla p100"></label>
+        <label>Max pris (kr, landat)<input type="number" id="wf-max-price" step="100"></label>
+        <label>Min VRAM (GB)<input type="number" id="wf-min-vram" step="8"></label>
+        <label>Max kr/GB<input type="number" id="wf-max-krgb" step="10"></label>
+        <label>Lägsta nivå<select id="wf-min-tier">
+          <option value="">alla</option><option value="ok">ok</option>
+          <option value="good">good</option><option value="great">great</option>
+        </select></label>
+        <label>Intervall<select id="wf-interval">
+          <option value="300">5 min</option><option value="900" selected>15 min</option>
+          <option value="1800">30 min</option><option value="3600">1 tim</option>
+          <option value="21600">6 tim</option><option value="86400">1 dygn</option>
+        </select></label>
+        <label>Län (Blocket)<select id="wf-region"><option value="">hela Sverige</option></select></label>
+        <label>Uteslut ord (komma)<input id="wf-exclude" placeholder="sxm2, adapter"></label>
+        <label>Endast dessa kort (komma)<input id="wf-models" placeholder="Tesla P100, Tesla P40"></label>
+      </div>
+      <fieldset class="sources"><legend>Källor</legend><div id="wf-sources"></div></fieldset>
+      <div class="row">
+        <label class="check"><input type="checkbox" id="wf-enabled" checked> Aktiv</label>
+        <label class="check"><input type="checkbox" id="wf-ai"> AI-validering (kostar pengar)</label>
+        <label class="check"><input type="checkbox" id="wf-import" checked> Räkna importmoms</label>
+      </div>
+      <div class="row">
+        <button type="submit" class="primary">Spara</button>
+        <button type="button" id="wf-cancel">Avbryt</button>
+        <span id="wf-error" class="error"></span>
+      </div>
+    </form>
+  </section>
+
+  <!-- ------------------------------------------------------------- Sök -->
+  <section id="view-search" class="view" hidden>
+    <form id="search-form" class="card form">
+      <div class="grid">
+        <label>Sökord<input id="s-query" placeholder="tesla p100" required></label>
+        <label>Max pris (kr)<input type="number" id="s-max-price" step="100"></label>
+        <label>Min VRAM (GB)<input type="number" id="s-min-vram" step="8"></label>
+        <label>Max kr/GB<input type="number" id="s-max-krgb" step="10"></label>
+        <label>Län (Blocket)<select id="s-region"><option value="">hela Sverige</option></select></label>
+      </div>
+      <fieldset class="sources"><legend>Källor</legend><div id="s-sources"></div></fieldset>
+      <div class="row">
+        <button type="submit" class="primary">Sök nu</button>
+        <label class="check"><input type="checkbox" id="s-store" checked> Spara i databasen</label>
+        <label class="check"><input type="checkbox" id="s-rejected"> Visa bortsorterade</label>
+        <span id="s-status" class="muted"></span>
+      </div>
+    </form>
+    <div id="search-results"></div>
+  </section>
+
+  <!-- ----------------------------------------------------------- Flöde -->
+  <section id="view-feed" class="view" hidden>
+    <div class="toolbar">
+      <button id="feed-seen">Markera allt som läst</button>
+      <label class="check"><input type="checkbox" id="feed-unseen"> Endast olästa</label>
+    </div>
+    <div id="feed-list"></div>
+  </section>
+
+  <!-- ------------------------------------------------------ Statistik -->
+  <section id="view-stats" class="view" hidden>
+    <div class="toolbar">
+      <label>Fönster <select id="stats-days">
+        <option value="30">30 dagar</option><option value="90">90 dagar</option>
+        <option value="180" selected>180 dagar</option><option value="3650">allt</option>
+      </select></label>
+      <span class="muted">Priser är landade (inkl. frakt och importmoms där det gäller).</span>
+    </div>
+    <div id="stats-list"></div>
+  </section>
+
+  <!-- ------------------------------------------------------ Kortkatalog -->
+  <section id="view-cards" class="view" hidden>
+    <div class="toolbar">
+      <label>Min VRAM <input type="number" id="c-min-vram" value="16" step="8"></label>
+      <button id="c-reload">Uppdatera</button>
+    </div>
+    <div id="card-list"></div>
+  </section>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

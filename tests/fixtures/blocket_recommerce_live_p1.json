@@ -1,0 +1,129 @@
+{
+ "docs": [
+  {
+   "type": "bap",
+   "id": "26291750",
+   "main_search_key": "SEARCH_ID_BAP_ALL",
+   "heading": "Gamingdator nvidia 1070, Intel i7-7700k, 16GB ddr4 ram",
+   "location": "Vansbro",
+   "image": {
+    "url": "https://images.blocketcdn.se/dynamic/default/item/26291750/d3c56ce5-6eea-496d-b3d9-1881681f29d0",
+    "path": "item/26291750/d3c56ce5-6eea-496d-b3d9-1881681f29d0",
+    "height": 4000,
+    "width": 3000,
+    "aspect_ratio": 0.75
+   },
+   "flags": [
+    "private"
+   ],
+   "timestamp": 1788519631000,
+   "coordinates": {
+    "lat": 60.44135,
+    "lon": 14.13649,
+    "accuracy": 5
+   },
+   "ad_type": 67,
+   "labels": [
+    {
+     "id": "private",
+     "text": "Privat",
+     "type": "SECONDARY"
+    }
+   ],
+   "canonical_url": "https://www.blocket.se/recommerce/forsale/item/26291750",
+   "extras": [],
+   "price": {
+    "amount": 4000,
+    "currency_code": "SEK",
+    "price_unit": "kr"
+   },
+   "distance": 0,
+   "trade_type": "Säljes",
+   "image_urls": [
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/d3c56ce5-6eea-496d-b3d9-1881681f29d0",
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/59bb83a0-b453-412d-a18e-a2bca76bfba5",
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/961b7ab3-ba38-4501-bd48-2665675f62e0",
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/d2cd1644-4c11-4480-81ef-6c84888b688b",
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/9baf9ad2-c795-4861-b5c7-49c58e496d17",
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/57813211-a0ba-4b6a-9cd0-dc1edbe7645c",
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/af7c991f-41a6-41a4-85ec-5b652a622200",
+    "https://images.blocketcdn.se/dynamic/default/item/26291750/ab73f8ea-e0a2-425a-a567-1e217fc39086"
+   ],
+   "ad_id": 26291750,
+   "metadata": {
+    "source": "keyword"
+   }
+  },
+  {
+   "type": "bap",
+   "id": "26300901",
+   "main_search_key": "SEARCH_ID_BAP_ALL",
+   "heading": "Acer stationär dator Intel",
+   "location": "Tyresö",
+   "image": {
+    "url": "https://images.blocketcdn.se/dynamic/default/item/26300901/6ceff4e5-db00-4c4b-b03f-e65ad715639b",
+    "path": "item/26300901/6ceff4e5-db00-4c4b-b03f-e65ad715639b",
+    "height": 3000,
+    "width": 4000,
+    "aspect_ratio": 1.3333333333333333
+   },
+   "flags": [
+    "private"
+   ],
+   "timestamp": 1788518905000,
+   "coordinates": {
+    "lat": 59.2464,
+    "lon": 18.2024,
+    "accuracy": 5
+   },
+   "ad_type": 67,
+   "labels": [
+    {
+     "id": "private",
+     "text": "Privat",
+     "type": "SECONDARY"
+    }
+   ],
+   "canonical_url": "https://www.blocket.se/recommerce/forsale/item/26300901",
+   "extras": [
+    {
+     "id": "brand",
+     "label": "",
+     "values": [
+      "Acer"
+     ]
+    }
+   ],
+   "price": {
+    "amount": 900,
+    "currency_code": "SEK",
+    "price_unit": "kr"
+   },
+   "distance": 0,
+   "trade_type": "Säljes",
+   "image_urls": [
+    "https://images.blocketcdn.se/dynamic/default/item/26300901/6ceff4e5-db00-4c4b-b03f-e65ad715639b",
+    "https://images.blocketcdn.se/dynamic/default/item/26300901/5f6177ff-47ea-4965-8fc8-cc0da9f681b9",
+    "https://images.blocketcdn.se/dynamic/default/item/26300901/dde318da-0c75-4e62-a463-60cf08dd2f1f"
+   ],
+   "brand": "Acer",
+   "ad_id": 26300901,
+   "metadata": {
+    "source": "keyword"
+   }
+  }
+ ],
+ "metadata": {
+  "num_results": 53,
+  "result_size": {
+   "match_count": 1656,
+   "group_count": 1656
+  },
+  "paging": {
+   "param": "page",
+   "current": 1,
+   "last": 32
+  },
+  "sort": "PUBLISHED_DESC"
+ }
+}

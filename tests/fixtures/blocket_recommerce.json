@@ -1,0 +1,22 @@
+{
+  "metadata": {"totalCount": 2, "page": 1},
+  "data": [
+    {
+      "ad_id": "1411111111",
+      "subject": "Nvidia Tesla P100 16GB HBM2",
+      "body": "Servergrafikkort, passivt kylt.",
+      "price": {"value": 1250, "suffix": "kr"},
+      "share_url": "/annons/stockholm/nvidia-tesla-p100/1411111111",
+      "list_time": "2026-09-03T09:00:00Z",
+      "location": [{"name": "Stockholm"}],
+      "images": [{"url": "https://cdn.blocket.se/a.jpg"}]
+    },
+    {
+      "ad_id": "1422222222",
+      "subject": "RTX 3090 24GB",
+      "price": {"value": 5900},
+      "share_url": "/annons/uppsala/rtx-3090/1422222222",
+      "location": [{"name": "Uppsala"}]
+    }
+  ]
+}

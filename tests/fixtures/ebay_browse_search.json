@@ -1,0 +1,43 @@
+{
+  "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=tesla+p100&limit=50",
+  "total": 3,
+  "limit": 50,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|335123456789|0",
+      "legacyItemId": "335123456789",
+      "title": "Nvidia Tesla P100 16GB HBM2 PCIe GPU Accelerator",
+      "itemWebUrl": "https://www.ebay.com/itm/335123456789?hash=item4e",
+      "price": { "value": "129.99", "currency": "USD" },
+      "image": { "imageUrl": "https://i.ebayimg.com/images/g/abc/s-l225.jpg" },
+      "itemLocation": { "city": "Shenzhen", "country": "CN" },
+      "shippingOptions": [
+        { "shippingCostType": "FIXED", "shippingCost": { "value": "32.00", "currency": "USD" } }
+      ],
+      "condition": "Used",
+      "conditionId": "3000",
+      "buyingOptions": ["FIXED_PRICE"],
+      "seller": { "username": "gpu_liquidator", "feedbackPercentage": "99.2" }
+    },
+    {
+      "itemId": "v1|226987654321|0",
+      "legacyItemId": "226987654321",
+      "title": "NVIDIA Tesla P40 24GB Grafikkarte",
+      "itemWebUrl": "https://www.ebay.de/itm/226987654321",
+      "currentBidPrice": { "value": "189.00", "currency": "EUR" },
+      "bidCount": 7,
+      "image": { "imageUrl": "https://i.ebayimg.com/images/g/def/s-l225.jpg" },
+      "itemLocation": { "city": "Berlin", "stateOrProvince": "Berlin", "country": "DE" },
+      "condition": "Seller refurbished",
+      "buyingOptions": ["AUCTION"],
+      "seller": { "username": "serverteile24" }
+    },
+    {
+      "itemId": "v1|111111111111|0",
+      "title": "",
+      "itemWebUrl": "https://www.ebay.com/itm/111111111111",
+      "price": { "value": "1.00", "currency": "USD" }
+    }
+  ]
+}

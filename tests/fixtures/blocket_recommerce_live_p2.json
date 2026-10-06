@@ -1,0 +1,149 @@
+{
+ "docs": [
+  {
+   "type": "bap",
+   "id": "26289999",
+   "main_search_key": "SEARCH_ID_BAP_ALL",
+   "heading": "Gamingdator Lenovo Legion T5 – Ryzen 5 3600 / 1660 Super / 32 GB",
+   "location": "Kungsbacka",
+   "image": {
+    "url": "https://images.blocketcdn.se/dynamic/default/item/26289999/3e8b328f-64bd-4a77-8c56-7c9118bad118",
+    "path": "item/26289999/3e8b328f-64bd-4a77-8c56-7c9118bad118",
+    "height": 5712,
+    "width": 4284,
+    "aspect_ratio": 0.75
+   },
+   "flags": [
+    "private"
+   ],
+   "timestamp": 1788462214000,
+   "coordinates": {
+    "lat": 57.55514,
+    "lon": 12.21078,
+    "accuracy": 5
+   },
+   "ad_type": 67,
+   "labels": [
+    {
+     "id": "private",
+     "text": "Privat",
+     "type": "SECONDARY"
+    }
+   ],
+   "canonical_url": "https://www.blocket.se/recommerce/forsale/item/26289999",
+   "extras": [
+    {
+     "id": "brand",
+     "label": "",
+     "values": [
+      "Lenovo"
+     ]
+    }
+   ],
+   "price": {
+    "amount": 3990,
+    "currency_code": "SEK",
+    "price_unit": "kr"
+   },
+   "distance": 0,
+   "trade_type": "Säljes",
+   "image_urls": [
+    "https://images.blocketcdn.se/dynamic/default/item/26289999/3e8b328f-64bd-4a77-8c56-7c9118bad118",
+    "https://images.blocketcdn.se/dynamic/default/item/26289999/16a19cc1-cac5-45b5-a600-0c069b7bcf3d",
+    "https://images.blocketcdn.se/dynamic/default/item/26289999/4f371b9a-d2e6-4bb0-a564-1071cd8e4f71"
+   ],
+   "brand": "Lenovo",
+   "ad_id": 26289999,
+   "metadata": {
+    "source": "keyword"
+   }
+  },
+  {
+   "type": "bap",
+   "id": "26213015",
+   "main_search_key": "SEARCH_ID_BAP_ALL",
+   "heading": "Taurus Gaming RTX 4070 Super - 7800X3D",
+   "location": "Nyköping",
+   "image": {
+    "url": "https://images.blocketcdn.se/dynamic/default/item/26213015/fe6874cb-62df-44e9-a7f7-fd229cd1d95c",
+    "path": "item/26213015/fe6874cb-62df-44e9-a7f7-fd229cd1d95c",
+    "height": 2932,
+    "width": 3910,
+    "aspect_ratio": 1.3335607094133697
+   },
+   "flags": [
+    "private",
+    "shipping_exists",
+    "buy_now"
+   ],
+   "timestamp": 1788462013000,
+   "coordinates": {
+    "lat": 58.74205,
+    "lon": 17.05115,
+    "accuracy": 5
+   },
+   "ad_type": 67,
+   "labels": [
+    {
+     "id": "fiks_ferdig",
+     "text": "Kan skickas",
+     "type": "PRIMARY"
+    },
+    {
+     "id": "buy_now",
+     "text": "Köp nu",
+     "type": "SECONDARY"
+    },
+    {
+     "id": "private",
+     "text": "Privat",
+     "type": "SECONDARY"
+    }
+   ],
+   "canonical_url": "https://www.blocket.se/recommerce/forsale/item/26213015",
+   "extras": [
+    {
+     "id": "brand",
+     "label": "",
+     "values": [
+      "Asus"
+     ]
+    }
+   ],
+   "price": {
+    "amount": 18000,
+    "currency_code": "SEK",
+    "price_unit": "kr"
+   },
+   "distance": 0,
+   "trade_type": "Säljes",
+   "image_urls": [
+    "https://images.blocketcdn.se/dynamic/default/item/26213015/fe6874cb-62df-44e9-a7f7-fd229cd1d95c",
+    "https://images.blocketcdn.se/dynamic/default/item/26213015/dcd6ed19-c63c-4027-9a5e-1ab74dc9dbea",
+    "https://images.blocketcdn.se/dynamic/default/item/26213015/1b1525c9-0778-44b2-a33c-5eaeb8cf8b86",
+    "https://images.blocketcdn.se/dynamic/default/item/26213015/45524ee6-e462-442a-bcd9-ebae11e0b84a",
+    "https://images.blocketcdn.se/dynamic/default/item/26213015/3d4f07f7-7e6c-4386-86f9-a20d5b1efda4",
+    "https://images.blocketcdn.se/dynamic/default/item/26213015/5b3a1044-7da2-4e4c-b0f8-6ab7d3f6b151",
+    "https://images.blocketcdn.se/dynamic/default/item/26213015/acc2a257-5d44-435d-8a28-98806dea0580"
+   ],
+   "brand": "Asus",
+   "ad_id": 26213015,
+   "metadata": {
+    "source": "keyword"
+   }
+  }
+ ],
+ "metadata": {
+  "num_results": 53,
+  "result_size": {
+   "match_count": 1656,
+   "group_count": 1656
+  },
+  "paging": {
+   "param": "page",
+   "current": 2,
+   "last": 32
+  },
+  "sort": "PUBLISHED_DESC"
+ }
+}
